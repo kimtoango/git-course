@@ -26,13 +26,13 @@ d. Chạy lệnh: git add file1
 - Staging: file1
 - Repository:
 e. Chạy lệnh: git commit -m"add file1"
-(Phải có gì đó trong staging area thì ta mới commit được, khi commit thì file1 đi từ satging vào repository)
+(Phải có gì đó trong staging area thì ta mới commit được, khi commit thì file1 đi từ staging vào repository)
 - Local: 
 - Working: file2, file3
 - Staging: 
 - Repository: file1
 f. Chạy lệnh: git add file
-(Không có tác dujnh vì không có file mào tên "file")
+(Không có tác dụng vì không có file mào tên "file")
 - Local: 
 - Working: file2, file3
 - Staging: 
