@@ -4,32 +4,35 @@
 - git add . : Thêm toàn bộ file từ vùng Working vào vùng staging
 - git commit -m "message" : Tạo ra 1 phiên bản dựa vào các file được thêm ở vùng staging vào vùng Repository với thông điệp là "message"
 2. 
-Tạo 3 file: file1, file2, file3
+a. Tạo 3 file: file1, file2, file3
 - Local: file1, file2, file3
 - Working:
 - Staging:
 - Repository:
-Chạy lệnh: git init
+b. Chạy lệnh: git init
 - Local: 
 - Working: file1, file2, file3
 - Staging:
 - Repository:
-Chạy lệnh: git commit -m"init project"
+c. Chạy lệnh: git commit -m"init project"
+(Commit không có tác dụng vì chưa có file nào trong staginh area)
 - Local: 
 - Working: file1, file2, file3
 - Staging:
 - Repository:
-Chạy lệnh: git add file1
+d. Chạy lệnh: git add file1
 - Local: 
 - Working: file2, file3
 - Staging: file1
 - Repository:
-Chạy lệnh: git commit -m"add file1"
+e. Chạy lệnh: git commit -m"add file1"
+(Phải có gì đó trong staging area thì ta mới commit được, khi commit thì file1 đi từ satging vào repository)
 - Local: 
 - Working: file2, file3
 - Staging: 
 - Repository: file1
-Chạy lệnh: git add file
+f. Chạy lệnh: git add file
+(Không có tác dujnh vì không có file mào tên "file")
 - Local: 
 - Working: file2, file3
 - Staging: 
